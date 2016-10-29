@@ -7,21 +7,11 @@
 #
 
 Pod::Spec.new do |s|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   s.name         = "Math"
   s.version      = "0.0.1"
   s.summary      = "Math for Swift"
   s.description  = "A general purpose math library that handles type conversion in swift"
-
   s.homepage     = "https://github.com/daher-alfawares/math-swift"
-
   s.license      = { :type => "Apache 2.0", :file => "LICENSE" }
 
 
@@ -31,14 +21,14 @@ Pod::Spec.new do |s|
   # s.social_media_url   = "http://twitter.com/Daher Alfawares"
 
 
-s.ios.deployment_target = "10.0"
-s.osx.deployment_target = "10.7"
+  s.ios.deployment_target = "10.0"
+  s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
- s.source       = { :git => "https://github.com/daher-alfawares/math-swift.git", :tag => "#{s.version}" }
- s.source_files  = "Math/*.swift"
+  s.source       = { :git => "https://github.com/daher-alfawares/math-swift.git", :tag => "#{s.version}" }
+  s.source_files  = "Math/*.swift"
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "Classes/**/Math.h"
 
 end
