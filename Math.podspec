@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   # s.social_media_url   = "http://twitter.com/Daher Alfawares"
 
   s.ios.deployment_target = "10.0"
-  s.osx.deployment_target = "10.7"
+  s.osx.deployment_target = "10.10"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
