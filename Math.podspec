@@ -17,11 +17,10 @@ Pod::Spec.new do |s|
 
   s.name         = "Math"
   s.version      = "0.0.1"
-  s.summary      = "A short description of Math."
-  s.description  = <<-DESC
-                   DESC
+  s.summary      = "Math for Swift"
+  s.description  = "A general purpose math library that handles type conversion in swift"
 
-  s.homepage     = "http://EXAMPLE/Math"
+  s.homepage     = "https://github.com/daher-alfawares/math-swift"
 
   s.license      = { :type => "Apache 2.0", :file => "LICENSE" }
 
