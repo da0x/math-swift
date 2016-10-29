@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Math"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Math for Swift"
   s.description  = "A general purpose math library that handles type conversion in swift"
   s.homepage     = "https://github.com/daher-alfawares/math-swift"
@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   # Or just: s.author    = "Daher Alfawares"
   # s.authors            = { "Daher Alfawares" => "daher.alfawares@live.com" }
   # s.social_media_url   = "http://twitter.com/Daher Alfawares"
-
 
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.7"

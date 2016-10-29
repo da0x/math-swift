@@ -9,7 +9,7 @@
 import Foundation
 
 
-public class Vector {
+open class Vector {
     var x : CGFloat
     var y : CGFloat
     

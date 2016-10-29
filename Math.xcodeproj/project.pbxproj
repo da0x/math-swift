@@ -158,11 +158,13 @@
 					0C053B151DC45F1400029058 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = NF856H64DK;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					0C053B1E1DC45F1400029058 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = NF856H64DK;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
