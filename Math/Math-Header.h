@@ -2,7 +2,7 @@
 //  Math.h
 //  Math
 //
-//  Created by Daher Alfawares on 10/28/16.
+//  Created by Daher Alfawares on 10/29/16.
 //  Copyright © 2016 Daher Alfawares. All rights reserved.
 //
 

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0C053B151DC45F1400029058"
+               BlueprintIdentifier = "0C5CAD991DC52DED00D8FB02"
                BuildableName = "Math.framework"
                BlueprintName = "Math"
                ReferencedContainer = "container:Math.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0C053B1E1DC45F1400029058"
+               BlueprintIdentifier = "0C5CADA21DC52DED00D8FB02"
                BuildableName = "MathTests.xctest"
                BlueprintName = "MathTests"
                ReferencedContainer = "container:Math.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0C053B151DC45F1400029058"
+            BlueprintIdentifier = "0C5CAD991DC52DED00D8FB02"
             BuildableName = "Math.framework"
             BlueprintName = "Math"
             ReferencedContainer = "container:Math.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0C053B151DC45F1400029058"
+            BlueprintIdentifier = "0C5CAD991DC52DED00D8FB02"
             BuildableName = "Math.framework"
             BlueprintName = "Math"
             ReferencedContainer = "container:Math.xcodeproj">
@@ -82,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0C053B151DC45F1400029058"
+            BlueprintIdentifier = "0C5CAD991DC52DED00D8FB02"
             BuildableName = "Math.framework"
             BlueprintName = "Math"
             ReferencedContainer = "container:Math.xcodeproj">

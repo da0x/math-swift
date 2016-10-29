@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 open class Vector {
     var x : Float
     var y : Float
@@ -21,7 +20,6 @@ open class Vector {
         self.x = x
         self.y = y
     }
-    
     public init(point:CGPoint){
         x = Float(point.x)
         y = Float(point.y)
