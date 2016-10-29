@@ -10,35 +10,34 @@ import Foundation
 
 
 open class Vector {
-    var x : CGFloat
-    var y : CGFloat
+    var x : Float
+    var y : Float
     
     public init(){
         x = 0
         y = 0
     }
-    public init(x:CGFloat,y:CGFloat){
+    public init(x:Float,y:Float){
         self.x = x
         self.y = y
     }
     
     public init(point:CGPoint){
-        x = CGFloat(point.x)
-        y = CGFloat(point.y)
+        x = Float(point.x)
+        y = Float(point.y)
     }
     
     public init(size:CGSize){
-        x = CGFloat(size.width)
-        y = CGFloat(size.height)
+        x = Float(size.width)
+        y = Float(size.height)
     }
     
-    
     public func asPoint() -> CGPoint {
-        return CGPoint(x:x,y:y)
+        return CGPoint(x:CGFloat(x),y:CGFloat(y))
     }
     
     public func asSize() -> CGSize {
-        return CGSize(width: x, height: y)
+        return CGSize(width:CGFloat(x),height:CGFloat(y))
     }
 }
 
@@ -50,10 +49,10 @@ public extension Vector {
     public static func - (left: Math.Vector, right: Math.Vector) -> Math.Vector {
         return Math.Vector(x: left.x - right.x, y: left.y - right.y)
     }
-    public static func * (left: Math.Vector, right: CGFloat) -> Math.Vector {
+    public static func * (left: Math.Vector, right: Float) -> Math.Vector {
         return Math.Vector(x: left.x*right, y: left.y*right)
     }
-    public static func / (left: Math.Vector, right: CGFloat) -> Math.Vector {
+    public static func / (left: Math.Vector, right: Float) -> Math.Vector {
         return Math.Vector(x: left.x/right, y: left.y/right)
     }
 }
