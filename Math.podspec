@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "Math"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Math for Swift"
   s.description  = "A general purpose math library that handles type conversion in swift"
   s.homepage     = "https://github.com/daher-alfawares/math-swift"
