@@ -54,3 +54,9 @@ public extension Vector {
         return Math.Vector(x: left.x/right, y: left.y/right)
     }
 }
+
+public extension Vector {
+    func description()->String {
+        return "Vector (\(x),\(y))"
+    }
+}
